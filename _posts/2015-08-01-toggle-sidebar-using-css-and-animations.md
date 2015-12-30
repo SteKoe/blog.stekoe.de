@@ -20,7 +20,7 @@ One can think of adding different stati to the website, `navigationIsHidden` wou
 So by adding `<html class="navigationIsHidden">` the entire HTML document _knows_ that the navigation bar should not be rendered and elements have to react on this state.
 Other elements like top navigation or content area are allowed to increase their size to full window width now to close the gap which was used by navigation before.
 
-```css
+```scss
 html.navigationIsHidden {
     aside {
         position: fixed;
