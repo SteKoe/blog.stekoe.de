@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Java equals() vs. hashCode() methods"
 date: 2013-02-07
 tags:

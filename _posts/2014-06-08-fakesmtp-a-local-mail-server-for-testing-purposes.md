@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "FakeSMTP: A local mail server for testing purposes"
 date: 2014-06-08
 tags:

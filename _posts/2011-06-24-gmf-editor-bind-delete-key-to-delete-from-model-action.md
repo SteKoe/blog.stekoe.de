@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "GMF Editor: Bind delete-key to \"delete from model\" action"
 date: 2011-06-24
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "Spotlight: Git rebase"
+layout: post
 tags:
 - git
 - rebase

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Nested category list in WordPress"
 date: 2012-04-04
 tags:

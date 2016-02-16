@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "CakePHPs MVC-Pattern"
 date: 2012-03-19
 tags:

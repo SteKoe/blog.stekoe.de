@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "CakePHP: Tree Behavior"
 date: 2012-05-21
 tags:

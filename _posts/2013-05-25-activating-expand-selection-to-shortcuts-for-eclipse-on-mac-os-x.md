@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Activating \"Expand selection to\" shortcuts for Eclipse on Mac OS X"
 date: 2013-05-25
 categories: 

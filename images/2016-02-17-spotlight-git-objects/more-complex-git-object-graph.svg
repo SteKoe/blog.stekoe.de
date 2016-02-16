@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generiert durch Microsoft Visio, SVG Export more-complex-git-object-graph.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="11.6929in" height="8.26772in" viewBox="0 0 841.89 595.276" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st15">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {visibility:visible}
+		.st2 {fill:none;filter:url(#filter_2);stroke:none}
+		.st3 {fill:#5b9bd5;filter:url(#filter_2);font-family:Calibri;font-size:0.833336em;opacity:0.219608}
+		.st4 {fill:none;stroke:none;stroke-width:0.25}
+		.st5 {fill:#000000;font-family:Calibri;font-size:0.833336em}
+		.st6 {fill:#5b9bd5;fill-opacity:0.22;filter:url(#filter_2);stroke:#5b9bd5;stroke-opacity:0.22}
+		.st7 {fill:#a8d08d;stroke:#c7c8c8;stroke-width:0.25}
+		.st8 {fill:#feffff;font-family:Calibri;font-size:0.833336em}
+		.st9 {fill:#f4b183;stroke:#c7c8c8;stroke-width:0.25}
+		.st10 {fill:#0c0c0c;font-family:Calibri;font-size:0.833336em}
+		.st11 {marker-end:url(#mrkr4-36);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st12 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st13 {fill:#5b9bd5;stroke:#c7c8c8;stroke-width:0.25}
+		.st14 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st15 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-36" class="st12" refX="-7.04" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<defs id="Filters">
+		<filter id="filter_2">
+			<feGaussianBlur stdDeviation="2"/>
+		</filter>
+	</defs>
+	<g>
+		<title>Zeichenblatt-1</title>
+		<g id="group14-1" transform="translate(82.8121,-317.754)">
+			<title>Tabelle.14</title>
+			<g id="shape4-2" transform="translate(6.95832,0)">
+				<title>Tabelle.4</title>
+				<desc>341cf04</desc>
+				<g id="shadow4-3" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<rect x="0" y="572.872" width="49.8629" height="22.4037" class="st2"/>
+					<text x="8.62" y="587.07" class="st3">341cf04</text>				</g>
+				<rect x="0" y="572.872" width="49.8629" height="22.4037" class="st4"/>
+				<text x="8.62" y="587.07" class="st5">341cf04</text>			</g>
+			<g id="shape1-10" transform="translate(0,-22.4037)">
+				<title>Dreieck</title>
+				<desc>Tree</desc>
+				<g id="shadow1-11" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<path d="M63.78 595.28 L31.89 552.76 L0 595.28 L63.78 595.28 Z" class="st6"/>
+				</g>
+				<path d="M63.78 595.28 L31.89 552.76 L0 595.28 L63.78 595.28 Z" class="st7"/>
+				<text x="22.73" y="584.1" class="st8">Tree</text>			</g>
+		</g>
+		<g id="group15-16" transform="translate(85.0394,-419.528)">
+			<title>Tabelle.15</title>
+			<g id="shape2-17" transform="translate(0,-21.3913)">
+				<title>Kreis</title>
+				<desc>Commit</desc>
+				<g id="shadow2-18" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<path d="M0 563.39 A31.8898 31.8898 0 1 1 63.78 563.39 A31.8898 31.8898 0 1 1 -0 563.39 Z" class="st6"/>
+				</g>
+				<path d="M0 563.39 A31.8898 31.8898 0 1 1 63.78 563.39 A31.8898 31.8898 0 1 1 -0 563.39 Z" class="st9"/>
+				<text x="15.78" y="566.39" class="st10">Commit</text>			</g>
+			<g id="shape9-23" transform="translate(7.13112,0)">
+				<title>Tabelle.9</title>
+				<desc>b458701</desc>
+				<g id="shadow9-24" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<rect x="0" y="572.872" width="49.8629" height="22.4037" class="st2"/>
+					<text x="7.1" y="587.67" class="st3">b458701</text>				</g>
+				<rect x="0" y="572.872" width="49.8629" height="22.4037" class="st4"/>
+				<text x="7.1" y="587.67" class="st5">b458701</text>			</g>
+		</g>
+		<g id="shape24-31" transform="translate(121.839,-419.528)">
+			<title>Dynamischer Verbinder</title>
+			<path d="M-7.04 595.28 L-7.04 604.18 L-7.14 604.18 L-7.14 625.09" class="st11"/>
+		</g>
+		<g id="group25-37" transform="translate(198.425,-317.754)">
+			<title>Tabelle.25</title>
+			<g id="shape3-38" transform="translate(0,-22.4037)">
+				<title>Abgerundetes Rechteck</title>
+				<desc>Blob</desc>
+				<g id="shadow3-39" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<path d="M6.38 595.28 L57.4 595.28 A6.37785 6.37785 -180 0 0 63.78 588.9 L63.78 559.13 A6.37785 6.37785 -180
+								 0 0 57.4 552.76 L6.38 552.76 A6.37785 6.37785 -180 0 0 -0 559.13 L0 588.9 A6.37785 6.37785 -180
+								 0 0 6.38 595.28 Z" class="st6"/>
+				</g>
+				<path d="M6.38 595.28 L57.4 595.28 A6.37785 6.37785 -180 0 0 63.78 588.9 L63.78 559.13 A6.37785 6.37785 -180 0 0
+							 57.4 552.76 L6.38 552.76 A6.37785 6.37785 -180 0 0 -0 559.13 L0 588.9 A6.37785 6.37785 -180 0 0 6.38
+							 595.28 Z" class="st13"/>
+				<text x="22.76" y="577.02" class="st8">Blob</text>			</g>
+			<g id="shape12-44" transform="translate(5.29128,0)">
+				<title>Tabelle.12</title>
+				<desc>b45ef6f</desc>
+				<g id="shadow12-45" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<rect x="0" y="572.872" width="53.197" height="22.4037" class="st2"/>
+					<text x="10.83" y="587.07" class="st3">b45ef6f</text>				</g>
+				<rect x="0" y="572.872" width="53.197" height="22.4037" class="st4"/>
+				<text x="10.83" y="587.07" class="st5">b45ef6f</text>			</g>
+		</g>
+		<g id="group26-52" transform="translate(198.425,-231.571)">
+			<title>Tabelle.26</title>
+			<g id="shape27-53" transform="translate(0,-22.4037)">
+				<title>Abgerundetes Rechteck</title>
+				<desc>Blob</desc>
+				<g id="shadow27-54" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<path d="M6.38 595.28 L57.4 595.28 A6.37785 6.37785 -180 0 0 63.78 588.9 L63.78 559.13 A6.37785 6.37785 -180
+								 0 0 57.4 552.76 L6.38 552.76 A6.37785 6.37785 -180 0 0 -0 559.13 L0 588.9 A6.37785 6.37785 -180
+								 0 0 6.38 595.28 Z" class="st6"/>
+				</g>
+				<path d="M6.38 595.28 L57.4 595.28 A6.37785 6.37785 -180 0 0 63.78 588.9 L63.78 559.13 A6.37785 6.37785 -180 0 0
+							 57.4 552.76 L6.38 552.76 A6.37785 6.37785 -180 0 0 -0 559.13 L0 588.9 A6.37785 6.37785 -180 0 0 6.38
+							 595.28 Z" class="st13"/>
+				<text x="22.76" y="577.02" class="st8">Blob</text>			</g>
+			<g id="shape28-59" transform="translate(5.29128,0)">
+				<title>Tabelle.28</title>
+				<desc>af729e9</desc>
+				<g id="shadow28-60" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<rect x="0" y="572.872" width="53.197" height="22.4037" class="st2"/>
+					<text x="10.05" y="587.07" class="st3">af729e9</text>				</g>
+				<rect x="0" y="572.872" width="53.197" height="22.4037" class="st4"/>
+				<text x="10.05" y="587.07" class="st5">af729e9</text>			</g>
+		</g>
+		<g id="shape29-67" transform="translate(131.017,-354.084)">
+			<title>Dynamischer Verbinder.29</title>
+			<path d="M0 588.44 L60.37 587.99" class="st11"/>
+		</g>
+		<g id="group32-72" transform="translate(316.468,-419.528)">
+			<title>Tabelle.32</title>
+			<g id="shape33-73" transform="translate(0,-21.3913)">
+				<title>Kreis</title>
+				<desc>Commit</desc>
+				<g id="shadow33-74" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<path d="M0 563.39 A31.8898 31.8898 0 1 1 63.78 563.39 A31.8898 31.8898 0 1 1 -0 563.39 Z" class="st6"/>
+				</g>
+				<path d="M0 563.39 A31.8898 31.8898 0 1 1 63.78 563.39 A31.8898 31.8898 0 1 1 -0 563.39 Z" class="st9"/>
+				<text x="15.78" y="566.39" class="st10">Commit</text>			</g>
+			<g id="shape34-79" transform="translate(7.13112,0)">
+				<title>Tabelle.34</title>
+				<desc>738f9sc</desc>
+				<g id="shadow34-80" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<rect x="0" y="572.872" width="49.8629" height="22.4037" class="st2"/>
+					<text x="9.2" y="587.67" class="st3">738f9sc</text>				</g>
+				<rect x="0" y="572.872" width="49.8629" height="22.4037" class="st4"/>
+				<text x="9.2" y="587.67" class="st5">738f9sc</text>			</g>
+		</g>
+		<g id="group35-87" transform="translate(314.038,-317.754)">
+			<title>Tabelle.35</title>
+			<g id="shape36-88" transform="translate(6.95832,0)">
+				<title>Tabelle.36</title>
+				<desc>341cf04</desc>
+				<g id="shadow36-89" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<rect x="0" y="572.872" width="49.8629" height="22.4037" class="st2"/>
+					<text x="8.62" y="587.07" class="st3">341cf04</text>				</g>
+				<rect x="0" y="572.872" width="49.8629" height="22.4037" class="st4"/>
+				<text x="8.62" y="587.07" class="st5">341cf04</text>			</g>
+			<g id="shape37-96" transform="translate(0,-22.4037)">
+				<title>Dreieck</title>
+				<desc>Tree</desc>
+				<g id="shadow37-97" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<path d="M63.78 595.28 L31.89 552.76 L0 595.28 L63.78 595.28 Z" class="st6"/>
+				</g>
+				<path d="M63.78 595.28 L31.89 552.76 L0 595.28 L63.78 595.28 Z" class="st7"/>
+				<text x="22.73" y="584.1" class="st8">Tree</text>			</g>
+		</g>
+		<g id="shape38-102" transform="translate(353.166,-419.528)">
+			<title>Dynamischer Verbinder.38</title>
+			<path d="M-6.93 595.28 L-6.93 605.91 L-7.24 605.91 L-7.24 625.09" class="st11"/>
+		</g>
+		<g id="shape43-107" transform="translate(316.468,-465.722)">
+			<title>Dynamischer Verbinder.43</title>
+			<desc>parent</desc>
+			<path d="M0 588.19 L-160.61 588.19" class="st11"/>
+			<rect x="-97.3792" y="582.189" width="27.1096" height="12.0001" class="st14"/>
+			<text x="-97.38" y="591.19" class="st10">parent</text>		</g>
+		<g id="shape44-114" transform="translate(330.22,-368.662)">
+			<title>Dynamischer Verbinder.44</title>
+			<path d="M0 602.2 L-60.98 602.49" class="st11"/>
+		</g>
+		<g id="group45-119" transform="translate(429.651,-317.754)">
+			<title>Tabelle.45</title>
+			<g id="shape46-120" transform="translate(0,-22.4037)">
+				<title>Abgerundetes Rechteck</title>
+				<desc>Blob</desc>
+				<g id="shadow46-121" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<path d="M6.38 595.28 L57.4 595.28 A6.37785 6.37785 -180 0 0 63.78 588.9 L63.78 559.13 A6.37785 6.37785 -180
+								 0 0 57.4 552.76 L6.38 552.76 A6.37785 6.37785 -180 0 0 -0 559.13 L0 588.9 A6.37785 6.37785 -180
+								 0 0 6.38 595.28 Z" class="st6"/>
+				</g>
+				<path d="M6.38 595.28 L57.4 595.28 A6.37785 6.37785 -180 0 0 63.78 588.9 L63.78 559.13 A6.37785 6.37785 -180 0 0
+							 57.4 552.76 L6.38 552.76 A6.37785 6.37785 -180 0 0 -0 559.13 L0 588.9 A6.37785 6.37785 -180 0 0 6.38
+							 595.28 Z" class="st13"/>
+				<text x="22.76" y="577.02" class="st8">Blob</text>			</g>
+			<g id="shape47-126" transform="translate(5.29128,0)">
+				<title>Tabelle.47</title>
+				<desc>012f7cd</desc>
+				<g id="shadow47-127" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<rect x="0" y="572.872" width="53.197" height="22.4037" class="st2"/>
+					<text x="10.19" y="587.07" class="st3">012f7cd</text>				</g>
+				<rect x="0" y="572.872" width="53.197" height="22.4037" class="st4"/>
+				<text x="10.19" y="587.07" class="st5">012f7cd</text>			</g>
+		</g>
+		<g id="group48-134" transform="translate(429.651,-231.571)">
+			<title>Tabelle.48</title>
+			<g id="shape49-135" transform="translate(0,-22.4037)">
+				<title>Abgerundetes Rechteck</title>
+				<desc>Blob</desc>
+				<g id="shadow49-136" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<path d="M6.38 595.28 L57.4 595.28 A6.37785 6.37785 -180 0 0 63.78 588.9 L63.78 559.13 A6.37785 6.37785 -180
+								 0 0 57.4 552.76 L6.38 552.76 A6.37785 6.37785 -180 0 0 -0 559.13 L0 588.9 A6.37785 6.37785 -180
+								 0 0 6.38 595.28 Z" class="st6"/>
+				</g>
+				<path d="M6.38 595.28 L57.4 595.28 A6.37785 6.37785 -180 0 0 63.78 588.9 L63.78 559.13 A6.37785 6.37785 -180 0 0
+							 57.4 552.76 L6.38 552.76 A6.37785 6.37785 -180 0 0 -0 559.13 L0 588.9 A6.37785 6.37785 -180 0 0 6.38
+							 595.28 Z" class="st13"/>
+				<text x="22.76" y="577.02" class="st8">Blob</text>			</g>
+			<g id="shape50-141" transform="translate(5.29128,0)">
+				<title>Tabelle.50</title>
+				<desc>fe8a6ce</desc>
+				<g id="shadow50-142" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<rect x="0" y="572.872" width="53.197" height="22.4037" class="st2"/>
+					<text x="10.52" y="587.07" class="st3">fe8a6ce</text>				</g>
+				<rect x="0" y="572.872" width="53.197" height="22.4037" class="st4"/>
+				<text x="10.52" y="587.07" class="st5">fe8a6ce</text>			</g>
+		</g>
+		<g id="shape52-149" transform="translate(362.243,-354.084)">
+			<title>Dynamischer Verbinder.52</title>
+			<path d="M0 588.44 L60.37 587.99" class="st11"/>
+		</g>
+		<g id="group53-154" transform="translate(429.651,-145.387)">
+			<title>Tabelle.53</title>
+			<g id="shape54-155" transform="translate(6.95832,0)">
+				<title>Tabelle.54</title>
+				<desc>4ff4e21</desc>
+				<g id="shadow54-156" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<rect x="0" y="572.872" width="49.8629" height="22.4037" class="st2"/>
+					<text x="9.26" y="587.07" class="st3">4ff4e21</text>				</g>
+				<rect x="0" y="572.872" width="49.8629" height="22.4037" class="st4"/>
+				<text x="9.26" y="587.07" class="st5">4ff4e21</text>			</g>
+			<g id="shape55-163" transform="translate(0,-22.4037)">
+				<title>Dreieck</title>
+				<desc>Tree</desc>
+				<g id="shadow55-164" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<path d="M63.78 595.28 L31.89 552.76 L0 595.28 L63.78 595.28 Z" class="st6"/>
+				</g>
+				<path d="M63.78 595.28 L31.89 552.76 L0 595.28 L63.78 595.28 Z" class="st7"/>
+				<text x="22.73" y="584.1" class="st8">Tree</text>			</g>
+		</g>
+		<g id="group59-169" transform="translate(545.264,-145.387)">
+			<title>Tabelle.59</title>
+			<g id="shape60-170" transform="translate(0,-22.4037)">
+				<title>Abgerundetes Rechteck</title>
+				<desc>Blob</desc>
+				<g id="shadow60-171" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<path d="M6.38 595.28 L57.4 595.28 A6.37785 6.37785 -180 0 0 63.78 588.9 L63.78 559.13 A6.37785 6.37785 -180
+								 0 0 57.4 552.76 L6.38 552.76 A6.37785 6.37785 -180 0 0 -0 559.13 L0 588.9 A6.37785 6.37785 -180
+								 0 0 6.38 595.28 Z" class="st6"/>
+				</g>
+				<path d="M6.38 595.28 L57.4 595.28 A6.37785 6.37785 -180 0 0 63.78 588.9 L63.78 559.13 A6.37785 6.37785 -180 0 0
+							 57.4 552.76 L6.38 552.76 A6.37785 6.37785 -180 0 0 -0 559.13 L0 588.9 A6.37785 6.37785 -180 0 0 6.38
+							 595.28 Z" class="st13"/>
+				<text x="22.76" y="577.02" class="st8">Blob</text>			</g>
+			<g id="shape61-176" transform="translate(5.29128,0)">
+				<title>Tabelle.61</title>
+				<desc>a77e123</desc>
+				<g id="shadow61-177" transform="matrix(1,0,0,1,0.345598,1.97279)" class="st1">
+					<rect x="0" y="572.872" width="53.197" height="22.4037" class="st2"/>
+					<text x="9.05" y="587.07" class="st3">a77e123</text>				</g>
+				<rect x="0" y="572.872" width="53.197" height="22.4037" class="st4"/>
+				<text x="9.05" y="587.07" class="st5">a77e123</text>			</g>
+		</g>
+		<g id="shape64-184" transform="translate(477.856,-181.717)">
+			<title>Dynamischer Verbinder.64</title>
+			<path d="M0 588.44 L60.37 587.99" class="st11"/>
+		</g>
+		<g id="shape66-189" transform="translate(395.999,-361.171)">
+			<title>Dynamischer Verbinder.66</title>
+			<path d="M0 595.28 L0 681.21 L26.61 681.21" class="st11"/>
+		</g>
+		<g id="shape67-194" transform="translate(395.999,-275.234)">
+			<title>Dynamischer Verbinder.67</title>
+			<path d="M0 595.28 L0 681.14 L42.79 681.14" class="st11"/>
+		</g>
+		<g id="shape68-199" transform="translate(165.982,-361.18)">
+			<title>Dynamischer Verbinder.68</title>
+			<path d="M0 595.28 L0 681.22 L25.4 681.22" class="st11"/>
+		</g>
+	</g>
+</svg>

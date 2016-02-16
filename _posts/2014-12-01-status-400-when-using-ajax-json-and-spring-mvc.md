@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Status 400 when using AJAX, JSON and Spring MVC"
 date: 2014-12-01
 tags: 

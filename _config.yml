@@ -1,56 +1,8 @@
-# Site Info
-title:              "SteKoe </> RuhrCoder"
-description:        "A blog about random things that come to my mind during developing stuff."
-google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
-google_analytics:   UA-73591040-1 # Put your Google Analytics code
-
-# Author Info
-author_name:        "Stephan Köninger"
-author_email:       blog@stekoe.de
-author_gravatar:    5d135a7df271fe224b6a56a207bf4842 # Gravatar md5 hash
-twitter_username:   s_koeninger
-
-# Site Settings
-baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
-permalink:          /notes/:title # Post permalink
-timezone:           Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-# Site Build
-highlighter:        rouge
-markdown:           kramdown
-redcarpet:
-    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
-sass:
-    style:          :compressed
-
-# Other Params
-include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+# General Jekyll Config
+highlighter: rouge
+url: http://example.com
+lsi: false
 gems:
   - jekyll-sitemap
   - jekyll-gist
-
-gist:
-  noscript: false
-
-compress_html:
-    clippings:      all
-    ingore:
-        envs:       [ "test" ]
-
-defaults:
-  -
-    scope:
-      path:         ""
-    values:
-      layout:       "null"
-  -
-    scope:
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      type:         "posts"
-    values:
-      layout:       "post"
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]

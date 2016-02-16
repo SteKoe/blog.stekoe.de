@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Setting up a VirtualHost"
 date: 2012-05-08
 tags:

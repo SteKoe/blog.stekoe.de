@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Toggle Sidebars using CSS and @keyframes"
 date: 2015-08-01
 tags:

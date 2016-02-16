@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Spotlight: Git index"
 date: 2015-10-17
 tags:

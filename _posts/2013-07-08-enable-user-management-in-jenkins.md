@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Enable User Management in Jenkins"
 date: 2013-07-08
 tags:

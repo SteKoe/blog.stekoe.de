@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Did you know? Battery Status of external devices are always approximated!"
 date: 2013-06-12
 tags:

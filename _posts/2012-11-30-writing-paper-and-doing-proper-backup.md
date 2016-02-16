@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "[Update] Writing papers and doing proper backup?!"
 date: 2012-05-24
 update: 2012-11-30

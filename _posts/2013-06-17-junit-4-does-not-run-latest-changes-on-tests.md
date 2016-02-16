@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "JUnit 4 does not run latest changes on tests"
 date: 2013-06-17
 tags:

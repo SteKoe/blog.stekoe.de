@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "How to set up a remote git repository at shared hosters like All-Inkl.com"
 date: 2013-07-14
 tags:

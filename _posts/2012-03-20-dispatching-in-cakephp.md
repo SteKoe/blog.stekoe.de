@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Dispatching in CakePHP"
 date: 2012-03-20
 tags:
