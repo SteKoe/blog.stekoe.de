@@ -15,7 +15,7 @@ Wie in vielen Fällen ist die eigentliche Implementierung weniger kompliziert, a
 
 Mit den Methoden <tt>getDiagramGraphicalViewer().getKeyHandler()</tt> werden die für den aktuellen Diagramm-Editor registrierten Key-Handler zurückgegeben. Nun ist es möglich die Key-Bindings zu manipulieren und an eigene Bedürfnisse anzupassen, so dass der Delete-Key eine vom Standard abweichende <tt>IAction</tt> aufruft. Hier ist ein kleines Code-Beispiel:
 
-```java
+~~~java
 KeyHandler keyHandler = getDiagramGraphicalViewer().getKeyHandler();
 keyHandler.put(
     KeyStroke.getPressed(SWT.DEL, 127, 0),
@@ -29,6 +29,6 @@ keyHandler.put(
         ActionIds.ACTION_DELETE_FROM_MODEL
     )
 );
-```
+~~~
 
 Dieses Beispiel legt fest, dass die Keys Delete und Backspace die <tt>IAction</tt>  "delete from model" aufrufen. &mdash; Im Prinzip war dies auch bereits die gesamte Arbeit, um das Key-Binding von "delete from diagram" auf "delete from model" zu mappen. Das einzige Problem welches sich an dieser Stelle auftut ist, dass kein Keyboard-Shortcut mehr für die Aktion "delete from diagramm" existiert. Das löschen von Diagrammelementen funktioniert hingegen jedoch wie gewohnt weiterhin über das Kontextmenü.

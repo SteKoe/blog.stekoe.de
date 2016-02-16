@@ -49,7 +49,7 @@ As you can see, it is very easy to manipulate the output of the category widget 
 
 We hope that this article helps you to understand filters in WordPress and how to change the output of the widgets on the front page.
 
-```php
+~~~php
 function your_filter_widget_categories($args)
 {
    	$_args = array(
@@ -60,9 +60,9 @@ function your_filter_widget_categories($args)
    	return $args;
 }
 add_filter('widget_categories_args', 'your_filter_widget_categories');
-```
+~~~
 
-```css
+~~~css
 /* SIDEBAR WIDGETS */
 .sidebar .widget ul {
     list-style-type: none;
@@ -111,4 +111,4 @@ add_filter('widget_categories_args', 'your_filter_widget_categories');
     padding-left: 58px;
     background-position: 38px 50%;
 }
-```
+~~~

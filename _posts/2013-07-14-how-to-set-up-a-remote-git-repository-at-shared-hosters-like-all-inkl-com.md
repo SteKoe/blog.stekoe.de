@@ -29,10 +29,10 @@ This directory will contain all my private repos from now on!
 
 The directory structure looks like this now:
 
-```text
+~~~text
 /www/htdocs/stekoe/www        <-- Containing my websites
 /www/htdocs/stekoe/git-repos  <-- Containing private git repos
-```
+~~~
 
 After changing into the <code>git-repos</code> directory, I created a new subdirectory for my first project.
 Let us call it <code>myPrivateRepo</code> in this article.

@@ -20,7 +20,7 @@ One can think of adding different stati to the website, `navigationIsHidden` wou
 So by adding `<html class="navigationIsHidden">` the entire HTML document _knows_ that the navigation bar should not be rendered and elements have to react on this state.
 Other elements like top navigation or content area are allowed to increase their size to full window width now to close the gap which was used by navigation before.
 
-```scss
+~~~scss
 html.navigationIsHidden {
     aside {
         position: fixed;
@@ -42,7 +42,7 @@ html.navigationIsHidden {
         padding-left: 0px;
     }
 }
-```
+~~~
 {% include image.html file="2015-08-01-toggle-sidebar-using-css-and-animations/layout.png" %}
 
 [1]: http://hanselminutes.com/445/all-about-css-animations-with-val-head "Hanselminutes"

@@ -1,6 +1,6 @@
 # Site Info
 title:              "SteKoe </> RuhrCoder"
-description:        "The Plain is a Minimalist Jekyll theme that focuses on writing matters."
+description:        "A blog about random things that come to my mind during developing stuff."
 google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
 google_analytics:   UA-73591040-1 # Put your Google Analytics code
 
@@ -17,7 +17,7 @@ timezone:           Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_dat
 
 # Site Build
 highlighter:        pygments
-markdown:           redcarpet
+markdown:           kramdown
 redcarpet:
     extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
 sass:
@@ -29,6 +29,9 @@ exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
 gems:
   - jekyll-sitemap
   - jekyll-gist
+
+gist:
+  noscript: false
 
 compress_html:
     clippings:      all

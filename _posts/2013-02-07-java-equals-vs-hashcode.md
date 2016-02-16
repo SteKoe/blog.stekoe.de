@@ -63,14 +63,14 @@ Although I will not introduce HashMap and HashSet in detail, I will give you the
 
 If you take a deeper view into the source code of HashMaps and HashSets you will see that both use some kind of table which contains a key and a value. The key corresponds to the hash of an stored object and the value is the stored object itself. But why do we use hashes instead of just looking up the objects directly? To keep the answer as short as possible, ask yourself: What is faster, comparing computers by their part numbers (model identifiers or whatever) or by comparing each part inside the computer? Of course it is much faster to compare the part number of the whole PC instead of each part itself. And thats why HashTables have been invented. In case of cost reduction (in this context costs do not have any economical aspect but express the time an algorithm lasts), hashes have evolved and are much easier and faster to use than anything else. In order to keep the advantages of HashTables up, it is necessary that hashes for objects are as unique as possible. If we have more than one object with the same hash we have to deal with collisions of hash codes. If multiple objects which are passed into a HashCollection have the same hash code in Java, they will be added to a single chained list of table entries:
 
-```text
+~~~text
 Key      Value
 ====     =======================================================
 0001     "object 1" --> "object 2" --> "object 3" --> null
 0002     null
 0003     "object 4" --> null
 ....
-```
+~~~
 
 If each object returns the same hash code, all objects would be added to one key containing all objects. This would slow down the hash table dramatically.
 

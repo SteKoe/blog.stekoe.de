@@ -17,7 +17,7 @@ But since finding a proper solution was not that easy, I am going to write down 
 
 First of all I have implemented a controller like this:
 
-```java
+~~~java
 public class MyController {
     @RequestMapping(value = "/member", method = )
     public @ResponseBody String post(@Valid @RequstBody Member member) {
@@ -25,11 +25,11 @@ public class MyController {
         Do whatever you want
     }
 }
-```
+~~~
 
 The class Member is defined as follows:
 
-```java
+~~~java
 public class Member {
     private String id;
     private String name;
@@ -39,12 +39,12 @@ public class Member {
         this.name = name;
     }
 }
-```
+~~~
 
 Whenever one executes an AJAX call with jQuery in order to create a new member, the application returns HTTP error 400.
 But why does this happen? First let's have a look at the jQuery code:
 
-```javascript
+~~~javascript
 var data = {
     id: "",
     name: "Hans Sarpei"
@@ -57,7 +57,7 @@ $.ajax({
     dataType:"json",
     type: 'POST'
 });
-```
+~~~
 
 When the AJAX call is executed, a POST request with JSON data is sent to the application.
 Spring MVC decodes the JSON data and tries to map it to the desired Object–in this case "Member".

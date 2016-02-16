@@ -46,13 +46,13 @@ Adding the development URL to your hosts file was the first task to perform. But
 
 Once you have found the file, open it up and add these lines at the end of it:
 
-```text
+~~~text
 NameVirtualHost *:80
 
 <VirtualHost *:80>
     ServerAlias my-tiny-little-website.dev
     DocumentRoot "/PATH/TO/YOUR/HTDOCS/FOLDER/my-tiny-little-website"
 </VirtualHost>
-```
+~~~
 
 Add a new file into the folder "my-tiny-little-website" called index.php and add some PHP code. Then restart apache as it needs to re-read the httpd.conf file. When you open a browser now and type in the url "my-tiny-little-website.dev" your PHP file should be parsed and the result should be send to the browser. You have successfully set up a virtual host!
