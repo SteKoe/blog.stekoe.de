@@ -1,6 +1,5 @@
 ---
 title: "Spotlight: Git objects"
-date: 2016-02-17
 layout: post
 tags:
 - git
