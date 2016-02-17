@@ -4,7 +4,7 @@ layout: post
 tags:
 - git
 - objects
----
+--- 
 1. This will become a table of contents (this text will be scraped).
 {:toc}
 
