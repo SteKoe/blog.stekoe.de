@@ -1,4 +1,13 @@
-{% assign url = page.path | replace: '_posts/','' | replace: '.md','' | append: '/' | prepend: '/images/' | append: include.file %}
+{% assign url = page.path %}
+{% assign url = url | replace: '.md','' | prepend: '/images/' | append: '/' %}
+
+{% if page.path contains '_drafts' %}
+	{% assign url = url | replace: '_drafts/','0000-00-00-' %}
+{% else %}
+	{% assign url = url | replace: '_posts/','' %}
+{% endif %}
+
+{% assign url = url | append: include.file %}
 
 <figure>
 	<a href="{{url}}" target="_blank" class="image">

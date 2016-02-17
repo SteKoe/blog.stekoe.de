@@ -2,6 +2,7 @@
 highlighter: rouge
 url: http://blog.stekoe.de
 lsi: false
+excerpt_separator: "<!-- more -->"
 gems:
   - jekyll-sitemap
   - jekyll-gist

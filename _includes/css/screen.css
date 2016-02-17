@@ -330,7 +330,15 @@ figcaption {
 
 .tag-list li {
 	display: inline-block;
+}
+
+.tag-list .tag {
 	margin-right: 1.5em;
+}
+
+.tag-list .keyword {
+	margin-right: .5em;
+	color: #aaa;
 }
 
 .tag-list a:hover {
