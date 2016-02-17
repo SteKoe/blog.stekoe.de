@@ -3,10 +3,10 @@ layout: post
 title: "Status 400 when using AJAX, JSON and Spring MVC"
 date: 2014-12-01
 tags: 
-- java
-- spring
-- json
-- ajax
+- Java
+- Spring
+- Json
+- Ajax
 - JavaScript
 ---
 I recently faced a problem using Spring MVC and AJAX calls.

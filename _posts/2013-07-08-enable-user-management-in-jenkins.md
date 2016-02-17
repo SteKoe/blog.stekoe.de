@@ -3,8 +3,8 @@ layout: post
 title: "Enable User Management in Jenkins"
 date: 2013-07-08
 tags:
- - asdasd
- - asdasd 
+ - Jenkins
+ - CI 
 ---
 Just a short memo to all users who are looking for the "Manage Users" section in Jenkins... Here is how to activate it in ten easy steps:
 

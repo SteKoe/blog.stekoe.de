@@ -3,10 +3,8 @@ layout: post
 title: "How to set up a remote git repository at shared hosters like All-Inkl.com"
 date: 2013-07-14
 tags:
-- git
-- init
-- bare
-- ssh
+- Git
+- SCM
 ---
 Github has some great features and I do not want to miss them, but I am not willing to pay $7 per month for a "micro" account in order to set up a private repository.
 Well, the $7 do not contain just the private repository but also a wiki, issue tracker and so on, but this is not what I wanted to have.

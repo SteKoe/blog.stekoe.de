@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "Toggle Sidebars using CSS and @keyframes"
-date: 2015-08-01
 tags:
 - CSS
-- Animation
-- Design
-- UI
+- "CSS animations"
+- "CSS keyframes"
 ---
 Most modern websites do have a navigation pane on their left side which contain a logo and links.
 On small screens the size of such a navigation pane takes too much space on screen and should not be painted.
@@ -44,7 +42,7 @@ html.navigationIsHidden {
     }
 }
 ~~~
-{% include image.html file="2015-08-01-toggle-sidebar-using-css-and-animations/layout.png" %}
+{% include image.html file="layout.png" %}
 
 [1]: http://hanselminutes.com/445/all-about-css-animations-with-val-head "Hanselminutes"
 

@@ -2,8 +2,8 @@
 title: "Spotlight: Git objects"
 layout: post
 tags:
-- git
-- objects
+ - Git
+ - SCM
 --- 
 1. This will become a table of contents (this text will be scraped).
 {:toc}
@@ -128,14 +128,14 @@ Hence we can assume that this is the object which contains all information neces
 The first line of the commit object points to the tree object we have seen in the previous chapter. 
 If one draws the different objects as a graph the result will look like as follows.
 
-{% include image.html file="2016-02-17-spotlight-git-objects/git-object-tree.svg" %} 
+{% include image.html file="git-object-tree.svg" caption="Fig.1: Simple Git object tree" %} 
 
 A more complex graph can be seen in the next figure which depicts two commits.
 The second commit points back to its previous commit using a parent-child association.
 As can be seen in the picture as well, the second commit introduces a new subfolder containing one file.
 This assumes, that a tree object can not just contain blobs but tree objects as well.
 
-{% include image.html file="2016-02-17-spotlight-git-objects/more-complex-git-object-graph.svg" %} 
+{% include image.html file="more-complex-git-object-graph.svg" caption="Fig.2: Extended Git object tree" %} 
 
 ## Conclusion
 In this blog post I have shown the main objects which are used by Git to track changes, files and their folders.

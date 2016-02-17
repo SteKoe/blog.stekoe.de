@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Spotlight: Git index"
-date: 2015-10-17
 tags:
-- git
-- index
+- Git
+- SCM
 ---
 I cannot remember when I started to use version control systems (VCS), but I know that I started by using Apache's SVN. Nowadays the tool Git has gained more attention and is used in many companies as well as in software engineering in general. But even though I am using Git on a daily basis, I have not understood the main concepts of Git in detail yet. Therefore I will have a closer look on Git's index and its behavior in this blogpost. I also plan to add more blogposts focussing on Git objects and the objects store.
 
