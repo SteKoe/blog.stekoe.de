@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generiert durch Microsoft Visio, SVG Export initial-repo-structure.svg git-commit-history-initial -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="5.61024in" height="2.17577in" viewBox="0 0 403.937 156.656" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st10">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#31859b;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#ffffff;font-family:Calibri;font-size:1.00001em}
+		.st3 {marker-end:url(#mrkr6-9);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st4 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.16556291390728}
+		.st5 {fill:#ea700d;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st6 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:#000000;font-family:Calibri;font-size:0.833336em}
+		.st8 {font-size:1em}
+		.st9 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend6">
+			<path d="M 2 1 L 0 0 L 2.01237 -1.00641 C 2.32921 -0.372874 2.32921 0.37287 2.01238 1.0064 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr6-9" class="st4" refX="-13.59" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend6" transform="scale(-6.04,-6.04) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>git-commit-history-initial</title>
+		<g id="shape4-1" transform="translate(14.2932,-42.8947)">
+			<title>Kreis.4.4</title>
+			<desc>M1</desc>
+			<path d="M0 142.48 A14.1732 14.1732 0 0 1 28.35 142.48 A14.1732 14.1732 0 1 1 0 142.48 Z" class="st1"/>
+			<text x="6" y="146.08" class="st2">M1</text>		</g>
+		<g id="shape17-4" transform="translate(353.956,-49.9813)">
+			<title>Dynamischer Verbinder.17</title>
+			<path d="M0 149.57 L-134.94 149.57" class="st3"/>
+		</g>
+		<g id="shape19-10" transform="translate(127.679,-85.4144)">
+			<title>Kreis.19</title>
+			<desc>F1</desc>
+			<path d="M0 142.48 A14.1732 14.1732 0 1 1 28.35 142.48 A14.1732 14.1732 0 0 1 0 142.48 Z" class="st5"/>
+			<text x="8.38" y="146.08" class="st2">F1</text>		</g>
+		<g id="shape29-13" transform="translate(346.869,-14.5482)">
+			<title>Tabelle.29</title>
+			<desc>master branch</desc>
+			<rect x="0" y="128.309" width="42.5197" height="28.3465" class="st6"/>
+			<text x="7.01" y="139.48" class="st7">master<tspan x="7.13" dy="1.2em" class="st8">branch</tspan></text>		</g>
+		<g id="shape43-17" transform="translate(70.9861,-42.8947)">
+			<title>Kreis.43</title>
+			<desc>M2</desc>
+			<path d="M0 142.48 A14.1732 14.1732 0 0 1 28.35 142.48 A14.1732 14.1732 0 1 1 0 142.48 Z" class="st1"/>
+			<text x="6" y="146.08" class="st2">M2</text>		</g>
+		<g id="shape44-20" transform="translate(183.877,-42.8947)">
+			<title>Kreis.44</title>
+			<desc>M3</desc>
+			<path d="M0 142.48 A14.1732 14.1732 0 0 1 28.35 142.48 A14.1732 14.1732 0 1 1 0 142.48 Z" class="st1"/>
+			<text x="6" y="146.08" class="st2">M3</text>		</g>
+		<g id="shape45-23" transform="translate(353.956,-42.8947)">
+			<title>Kreis.45</title>
+			<desc>M4</desc>
+			<path d="M0 142.48 A14.1732 14.1732 0 0 1 28.35 142.48 A14.1732 14.1732 0 1 1 0 142.48 Z" class="st1"/>
+			<text x="6" y="146.08" class="st2">M4</text>		</g>
+		<g id="shape46-26" transform="translate(240.57,-85.4144)">
+			<title>Kreis.46</title>
+			<desc>F2</desc>
+			<path d="M0 142.48 A14.1732 14.1732 0 1 1 28.35 142.48 A14.1732 14.1732 0 0 1 0 142.48 Z" class="st5"/>
+			<text x="8.38" y="146.08" class="st2">F2</text>		</g>
+		<g id="shape47-29" transform="translate(297.263,-85.4144)">
+			<title>Kreis.47</title>
+			<desc>F3</desc>
+			<path d="M0 142.48 A14.1732 14.1732 0 1 1 28.35 142.48 A14.1732 14.1732 0 0 1 0 142.48 Z" class="st5"/>
+			<text x="8.38" y="146.08" class="st2">F3</text>		</g>
+		<g id="shape51-32" transform="translate(127.679,-99.5876)">
+			<title>Dynamischer Verbinder.51</title>
+			<path d="M0 156.66 L-14.17 156.66 L-14.17 199.18" class="st9"/>
+		</g>
+		<g id="shape52-35" transform="translate(70.9861,-49.9813)">
+			<title>Dynamischer Verbinder.52</title>
+			<path d="M0 149.57 L-21.55 149.57" class="st3"/>
+		</g>
+		<g id="shape53-40" transform="translate(183.877,-49.9813)">
+			<title>Dynamischer Verbinder.53</title>
+			<path d="M0 149.57 L-77.75 149.57" class="st3"/>
+		</g>
+		<g id="shape54-45" transform="translate(240.57,-92.501)">
+			<title>Dynamischer Verbinder.54</title>
+			<path d="M0 149.57 L-77.75 149.57" class="st3"/>
+		</g>
+		<g id="shape55-50" transform="translate(297.263,-92.501)">
+			<title>Dynamischer Verbinder.55</title>
+			<path d="M0 149.57 L-21.55 149.57" class="st3"/>
+		</g>
+		<g id="shape56-55" transform="translate(47.9449,-14.5482)">
+			<title>Tabelle.56</title>
+			<desc>common ancestor</desc>
+			<rect x="0" y="128.309" width="74.429" height="28.3465" class="st6"/>
+			<text x="19.21" y="139.48" class="st7">common <tspan x="19.58" dy="1.2em" class="st8">ancestor</tspan></text>		</g>
+		<g id="shape59-59" transform="translate(290.176,-113.761)">
+			<title>Tabelle.59</title>
+			<desc>feature branch</desc>
+			<rect x="0" y="128.309" width="42.5197" height="28.3465" class="st6"/>
+			<text x="6.32" y="139.48" class="st7">feature<tspan x="7.13" dy="1.2em" class="st8">branch</tspan></text>		</g>
+	</g>
+</svg>
