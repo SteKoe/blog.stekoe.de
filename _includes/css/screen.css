@@ -44,6 +44,12 @@ h3 {
   margin: 1em 0;
 }
 
+/* Do not indicate abbreviations in headers, please :) */
+h1 abbr[title], h2 abbr[title], h3 abbr[title] {
+	border: none;
+	cursor: normal;
+}
+
 ul {
   margin: 1em 0;
   list-style: disc;
@@ -84,6 +90,9 @@ ul.posts li {
   line-height: 22px;
   font-size: 16px;
   margin-bottom: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 ul.posts span {
@@ -122,6 +131,10 @@ nav h1, nav h2 {
   font-size: 13px;
 }
 
+#post p {
+  text-align: justify;
+}
+
 #post pre {
   padding: 0 .4em;
   margin-bottom: 20px !important;
@@ -132,9 +145,10 @@ nav h1, nav h2 {
   margin-left: 1.35em;
 }
 
-#post code {
+#post p > code {
   font-size: 85%;
-  padding: 0 .2em;
+  padding: 0 .3em;
+  background-color: rgba(253,246,227,0.6);
 }
 
 #post pre code {
@@ -241,6 +255,19 @@ i.fa-hn {
   font-style: italic;
 }
 
+.footnotes::before {
+  content: "Footnotes";
+  display: block;
+  font-size: 21px;
+  line-height: 24px;
+  margin: 1em 0;
+  font-style: normal;
+}
+
+.footnotes li, .footnotes p {
+  margin: 0;
+}
+
 .icon-overlay {
   font-size: 16px !important;
   position: relative;
@@ -259,6 +286,11 @@ i.fa-hn {
 sup {
   vertical-align: super;
   font-size: smaller;
+}
+
+abbr[title] {
+    cursor: help;
+    border-bottom: 1px dotted #777;
 }
 
 .image, .image img {
