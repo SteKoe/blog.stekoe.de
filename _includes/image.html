@@ -1,5 +1,10 @@
-{% assign url = '/images/' | append: include.file %}
+{% assign url = page.path | replace: '_posts/','' | replace: '.md','' | append: '/' | prepend: '/images/' | append: include.file %}
 
-<a href="{{ url | prepend: site.baseurl }}" target="_blank" class="image chocolat-image">
-	<img src="{{ url | prepend: site.baseurl }}" alt="{% if include.alt %}{{ include.alt }}{% else %}Image{% endif %}">
-</a>
+<figure>
+	<a href="{{url}}" target="_blank" class="image">
+		<img src="{{url}}" alt="{% if include.alt %}{{ include.alt }}{% else %}Image{% endif %}">
+	</a>
+	{% if include.caption %}
+	<figcaption>{{include.caption}}</figcaption>
+	{% endif %}
+</figure>

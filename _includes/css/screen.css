@@ -78,6 +78,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%
 }
 
 ul.posts {
@@ -293,8 +294,18 @@ abbr[title] {
     border-bottom: 1px dotted #777;
 }
 
-.image, .image img {
-	max-width: 100%;
+figure {
+	margin-bottom: 1.5em;
+}
+
+figure img {
+	border: 1px solid #efefef;
+	background-color: #efefef;
+}
+
+figcaption {
+	margin-top: 1.5em;
+	text-align: center;
 }
 
 #markdown-toc::before {
@@ -310,4 +321,18 @@ abbr[title] {
 	margin-bottom: 20px;
     list-style-position: inside;
     padding: 10px 10px 0 10px;
+}
+
+.tag-list {
+	list-style: none;
+	margin: 0 !important;
+}
+
+.tag-list li {
+	display: inline-block;
+	margin-right: 1.5em;
+}
+
+.tag-list a:hover {
+	text-decoration: none;
 }
