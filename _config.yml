@@ -1,6 +1,6 @@
 # General Jekyll Config
 highlighter: rouge
-url: http://example.com
+url: http://blog.stekoe.de
 lsi: false
 gems:
   - jekyll-sitemap
