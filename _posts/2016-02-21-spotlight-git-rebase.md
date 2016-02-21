@@ -48,7 +48,7 @@ This helps to reduce the amount of branches as rebased branches can be safely re
 But using `rebase` might also mess up your history, since the whole history (at least the timestamps) are reset.
 Thus, `rebase` is dangerous as well when used the wrong way.
 
-Nevertheless, using `rebase` over `merge` (espacially a fast-forward merge) always depends on the current usecase.
+Nevertheless, using `rebase` over `merge` (espacially a fast-forward merge) always depends on the current use-case.
 In some cases it might be useful to preserve the branch commit history, then one should rely on `rebase`.
 When the history is irrelevant or contains messages which should not be part of the later result, using `git merge` might be a better choice.
 
