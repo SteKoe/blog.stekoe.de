@@ -6,6 +6,11 @@
 * http://www.opensource.org/licenses/mit-license.php
 * 8/17/2011
 */
+@media only screen and (min-width: 1400px) {
+	#gravatar {
+		box-shadow: none;
+	}
+}
 
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
@@ -35,6 +40,11 @@
 	nav { position: relative; }
 	nav ul,
 	#logo { text-align: left; }
+
+	body {
+		background-image: none;
+	}
+
 	.sidebar {
 		display: none;
 	}
@@ -47,6 +57,10 @@
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+	body {
+		background-image: none;
+	}
+	
 	.sidebar {
 		display: none;
 	}
@@ -59,6 +73,10 @@
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
+	body {
+		background-image: none;
+	}
+	
 	.sidebar {
 		display: none;
 	}

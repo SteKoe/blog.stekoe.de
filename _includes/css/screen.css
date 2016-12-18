@@ -9,6 +9,7 @@ html, body {
 
 body {
   font-size: 16px;
+  background-image: url(/img/bg.png);
   background-color: white;
   background-position: top left;
   background-repeat: no-repeat;
@@ -175,6 +176,7 @@ nav h1, nav h2 {
   padding-left: 40px;
   padding-top: 25px;
   min-height: 400px;
+  background-color: #fff;
 }
 
 .footer {
@@ -202,10 +204,13 @@ nav h1, nav h2 {
 }
 
 #gravatar {
+  transition: box-shadow 250ms linear;
   width: 180px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: -5px -5px 5px rgba(0,0,0,0.2);
 }
 
 #stalker {
