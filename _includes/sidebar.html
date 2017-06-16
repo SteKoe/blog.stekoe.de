@@ -6,11 +6,9 @@
     <img src="/logo.png" id="logo" alt="Blog logo"/>
     {% endif %}
   </a>
-  <h2>Hi there! My name is <strong>{{ site.data.theme.name }}</strong></h2>
+  <h2>Hi there! This is <br><strong>{{ site.data.theme.name }}</strong></h2>
   <div id="bio">
-    <p>
-		  I am a talented, hands-on <a href="http://manifesto.softwarecraftsmanship.org/">Software Craftsman</a> located in the Ruhr Valley, Germany.
-	  </p>
+    <p>{{ site.data.theme.tagline }}</p>
   </div>
   <div id="social">
     {% include social.html %}

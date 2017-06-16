@@ -1,34 +1,15 @@
-# Theme customization - please change from the defaults!
-
-# Color for top bar, links, etc
 highlight_color: '#536E78'
 
-# Profile links on the left sidebar, leave blank to ignore
 social:
   github: SteKoe
-  #bitbucket: philipj
-  #hacker_news: swanson
-  #stackexchange: 348619
-  #stackoverflow: 348619
   twitter: s_koeninger
-  #facebook: zuck
-  #tumblr: animalygifs
-  #linkedin: philipjagielski
-  #gplus: 110552447039675960964
   gravatar: 5d135a7df271fe224b6a56a207bf4842
-  #flickr: johndoe
   xing: Stephan_Koeninger
 
-# "Hi, I'm _______"
 name: Stephan Köninger
 email: mail@stekoe.de
-tagline: "weak opinions, strongly held"
+tagline: "I am a talented, hands-on <a href=\"http://manifesto.softwarecraftsmanship.org/\">Software Craftsman</a> located in the Ruhr Valley, Germany."
 
-# Google Analytics key, leave blank to ignore
 google_analytics_key: UA-73591040-1
 
-# Toggle "Postings are my own" disclaimer in footer
-show_disclaimer: false
-
-# Toggle link/icon to view atom feed (/atom.xml) in sidebar
 show_atom_feed: true

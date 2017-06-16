@@ -170,13 +170,19 @@ nav h1, nav h2 {
   font-weight: 600;
 }
 
-.content {
-  font: 400 16px/22px "open sans", sans-serif;
+.content.main {
   border-left: 1px solid #DDD;
   padding-left: 40px;
   padding-top: 25px;
   min-height: 400px;
   background-color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .content.main {
+        border-left: none;
+        padding-left: 0;
+    }
 }
 
 .footer {
@@ -330,15 +336,22 @@ figcaption {
 
 .tag-list {
 	list-style: none;
-	margin: 0 !important;
+    font-size: 80%;
+    color: #4c4c50;
+
+    padding: 2px 14px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 4px;
 }
 
 .tag-list li {
 	display: inline-block;
+    margin-bottom: 0;
 }
 
 .tag-list .tag {
-	margin-right: 1.5em;
+	margin-right: 1.2em;
 }
 
 .tag-list .keyword {
@@ -348,4 +361,8 @@ figcaption {
 
 .tag-list a:hover {
 	text-decoration: none;
+}
+
+blockquote {
+    margin-bottom: 20px;
 }

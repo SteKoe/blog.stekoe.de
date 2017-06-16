@@ -6,4 +6,10 @@ excerpt_separator: "<!-- more -->"
 gems:
   - jekyll-sitemap
   - jekyll-gist
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+exclude:
+  - LICENSE
+  - CNAME
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
