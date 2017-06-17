@@ -29,6 +29,15 @@ h1.title {
   font-weight: 800;
 }
 
+h1.title small {
+    font-size: 70%;
+    color: #616161;
+}
+
+h1.title small::before {
+    content: "\2014\00a0";
+}
+
 h1 {
   font-size: 32px;
   line-height: 40px;

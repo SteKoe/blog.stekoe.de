@@ -6,10 +6,14 @@ social:
   gravatar: 5d135a7df271fe224b6a56a207bf4842
   xing: Stephan_Koeninger
 
-name: Stephan Köninger
+name: Stephan
 email: mail@stekoe.de
-tagline: "I am a talented, hands-on <a href=\"http://manifesto.softwarecraftsmanship.org/\">Software Craftsman</a> located in the Ruhr Valley, Germany."
+tagline: "Ich bin ein Full-Stack Software-Entwickler mit Schwerpunkt auf Webentwicklung im Herzen von NRW."
 
 google_analytics_key: UA-73591040-1
 
 show_atom_feed: true
+
+head:
+  description: "Ich bin ein Full-Stack Software-Entwickler mit Schwerpunkt auf Webentwicklung im Herzen von NRW."
+  image: "//www.gravatar.com/avatar/5d135a7df271fe224b6a56a207bf4842?s=200"
