@@ -10,9 +10,9 @@ tags:
 Mein täglich Brot im Job ist das Arbeiten mit Modellen bzw. genauer: Geschäftsprozessmodellen.
 
 > Ein Geschäftsprozess ist eine immer wiederkehrende Menge auszuführender Aktivitäten, welche sich auf ein bestimmtes Unternehmen und dessen Unternehmensziel bezieht.
- Zur Erreichung des Unternehmensziels müssen die gegebenen, knappen Ressourcen bspw. in Form von Mitarbeitern oder Rohstoffen eingesetzt werden, um einen für den Kunden 
- relevanten Mehrwert (Output) zu erzeugen.
- 
+> Zur Erreichung des Unternehmensziels müssen die gegebenen, knappen Ressourcen bspw. in Form von Mitarbeitern oder Rohstoffen eingesetzt werden, um einen für den Kunden
+> relevanten Mehrwert (Output) zu erzeugen.
+
 Geschäftsprozessmodelle stellen daher die abstrakte Abbildung eines (oder mehrerer) Geschäftsprozesse dar.
 Die Abbildung erfolgt über eine domänenspezifische Modellierungssprache (DSML), welche Konzepte und Beziehungen zwischen diesen darstellen kann.
 Hierfür existieren eine Vielzahl an Sprachen um einen Geschäftsprozess abzubilden.
@@ -43,8 +43,6 @@ context Person
     inv: self.age < 18 implies self.fleet->size() = 0
 ```
 
-
-
 ### 2. Beispiel: Eine Person kann nicht sein eigenes Elternteil sein
 {% include image.html file="uml-example-2.png" caption="Abb. 2: UML-Beispiel: Eine Person hat zwei Elternteile" %}
 
@@ -52,3 +50,8 @@ context Person
 context Person
     inv: self.parents->forAll(p | p <> self)
 ```
+## Links und weitere Infos
+Die beste Dokumentation ist der Code.
+Zu finden ist OCL.js auf GitHub im Repository [SteKoe/OCL.js](https://github.com/SteKoe/ocl.js).
+Eine kurze Dokumentation in Schriftform ist [hier](https://ocl.stekoe.de/) zu finden. 
+
