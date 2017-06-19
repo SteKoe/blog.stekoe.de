@@ -43,13 +43,26 @@ context Person
     inv: self.age < 18 implies self.fleet->size() = 0
 ```
 
+Die obige OCL-Regel legt eine Invariante für den _context_ Person fest.
+Die Invariante legt fest, dass wenn eine Person jünger als 18 Jahre alt ist, die Fuhrparkgröße ebenfalls 0 sein muss.
+
 ### 2. Beispiel: Eine Person kann nicht sein eigenes Elternteil sein
+Ein weiteres Beispiel stellt folgendes Diagram dar:
+
 {% include image.html file="uml-example-2.png" caption="Abb. 2: UML-Beispiel: Eine Person hat zwei Elternteile" %}
+
+Eine Person hat zwei Elternteile.
+Was jedoch eine (biologische) Einschränkung darstellt ist, dass eine Person nicht sich selbst als Elternteil haben kann.
+Es ist schwer - wenn nicht unmöglich - dies allein über die gegebenen Konzepte von UML zu lösen.
+Mit Hilfe der folgenden, simplen OCL-Regel hingegen, wird die Einschränkung auf intuitive Weise festgehalten.
 
 ```ruby
 context Person
     inv: self.parents->forAll(p | p <> self)
 ```
+
+Diese OCL-Regel definiert erneut eine Invariante im _context_ Person, welche prüft, dass für alle Elemente in der Collection _parents_ gilt, dass diese nicht _self_ sind.
+
 ## Links und weitere Infos
 Die beste Dokumentation ist der Code.
 Zu finden ist OCL.js auf GitHub im Repository [SteKoe/OCL.js](https://github.com/SteKoe/ocl.js).
