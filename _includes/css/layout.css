@@ -104,6 +104,6 @@
 	content: "Fußnoten"
 }
 
-[lang=en] .footnotes::before {
+[lang=en] text-center.footnotes::before {
 	content: "Footnotes"
 }

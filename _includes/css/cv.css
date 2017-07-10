@@ -1,0 +1,35 @@
+.cv {
+    width: 100%;
+    color: #626262;
+    font-family: Montserrat, sans-serif;
+}
+
+.cv-item {
+    border: 1px solid #d7d7d7;
+    padding: 10px 5px;
+}
+
+.cv-item__left {
+    float: left;
+    margin-left: 10px;
+}
+
+.cv-item__right {
+    margin-left: 60px;
+}
+
+.cv-item__num {
+    color: #ababab;
+    line-height: 34px;
+    font-size: 28px;
+}
+
+.cv-item__title {
+    color: #000;
+    margin-left: 10px;
+}
+
+.cv-item__text {
+    margin-top: 10px;
+    margin-left: 10px;
+}
