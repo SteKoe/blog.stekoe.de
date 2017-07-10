@@ -1,47 +1,48 @@
 ---
 layout: default
 ---
+<div lang="{{ page.language }}">
+    <p class="meta">
+      {{ page.date | date: "%B %d, %Y" }} |
+      <a href="/">
+        <i class="home fa fa-home"></i>
+      </a>
+    </p>
 
-<p class="meta">
-  {{ page.date | date: "%B %d, %Y" }} 
-  <a href="/">
-    <i class="home fa fa-home"></i>
-  </a>
-</p>
+    <h1 class="title">
+        {{page.title}}
+        {% if page.subtitle %}
+            <br><small>{{page.subtitle}}</small>
+        {% endif %}
+    </h1>
 
-<h1 class="title">
-    {{page.title}}
-    {% if page.subtitle %}
-        <br><small>{{page.subtitle}}</small>
+    {% if page.tags or page.keywords %}
+    <ul class="tag-list">
+        {% for tag in page.tags %}
+        <li class="tag">
+            <i class="fa fa-tag"></i>
+            {{tag}}
+        </li>
+        {% endfor %}
+        {% for keyword in page.keywords %}
+        <li class="keyword">#{{keyword}}</li>
+        {% endfor %}
+    </ul>
     {% endif %}
-</h1>
 
-{% if page.tags or page.keywords %}
-<ul class="tag-list">
-	{% for tag in page.tags %}
-	<li class="tag">
-		<i class="fa fa-tag"></i>
-		{{tag}}
-	</li>
-	{% endfor %}
-	{% for keyword in page.keywords %}
-	<li class="keyword">#{{keyword}}</li>
-	{% endfor %}
-</ul>
-{% endif %}
+    <div id="post">
+      {{ content }}
+    </div>
 
-<div id="post">
-  {{ content }}
-</div>
-
-<div id="related">
-  <h3>Related Posts</h3>
-  <ul class="posts">
-    {% for post in site.related_posts limit:5 %}
-    <li>
-      <span>{{ post.date | date_to_string }} &raquo;</span> 
-	  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+    <div id="related">
+      <h3>Related Posts</h3>
+      <ul class="posts">
+        {% for post in site.related_posts limit:5 %}
+        <li>
+          <span>{{ post.date | date_to_string }} &raquo;</span>
+          <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
 </div>

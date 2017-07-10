@@ -1,6 +1,7 @@
 ---
 title: "Spotlight: Git objects"
 layout: post
+language: en
 tags:
  - Git
  - SCM

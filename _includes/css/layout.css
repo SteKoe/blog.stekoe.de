@@ -91,3 +91,19 @@
 		line-height: 24px;
 	}
 }
+
+#markdown-toc::before {
+	content: "Inhaltsverzeichnis"
+}
+
+[lang=en] #markdown-toc::before {
+	content: "Table of Contents"
+}
+
+.footnotes::before {
+	content: "Fußnoten"
+}
+
+[lang=en] .footnotes::before {
+	content: "Footnotes"
+}
