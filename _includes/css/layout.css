@@ -60,7 +60,7 @@
 	body {
 		background-image: none;
 	}
-	
+
 	.sidebar {
 		display: none;
 	}
@@ -76,7 +76,7 @@
 	body {
 		background-image: none;
 	}
-	
+
 	.sidebar {
 		display: none;
 	}
@@ -106,4 +106,16 @@
 
 [lang=en] text-center.footnotes::before {
 	content: "Footnotes"
+}
+
+.highlight {
+	font-family: monospace;
+	font-size: 14px;
+}
+
+figure .image, figure img {
+	padding: 7px;
+	display: block;
+	background-color: #f8f8f8;
+	border: none;
 }

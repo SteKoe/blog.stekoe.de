@@ -2,6 +2,8 @@
 highlighter: rouge
 url: http://blog.stekoe.de
 excerpt_separator: "<!-- more -->"
+related:
+  min_score: 0.75
 gems:
   - jekyll-sitemap
   - jekyll-gist
