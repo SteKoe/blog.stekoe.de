@@ -1,26 +1,32 @@
 ---
 layout: default
 ---
+<div class="card">
+    <div class="card-body">
+        <small>
+            <a href="/" class="text-muted">
+                &laquo; Home
+            </a>
+            <span class="text-muted float-right">
+                {{ page.date | date: "%B %d, %Y" }}
+            </span>
+        </small>
+        <div class="clearfix"></div>
 
-<p class="meta">
-  {{ page.date | date: "%B %d, %Y" }} 
-  <a href="/">
-    <i class="home fa fa-home"></i>
-  </a>
-</p>
+        <h1 class="title">{{ page.title }}</h1>
 
-<h1 class="title">{{ page.title }}</h1>
+        {% if page.tags %}
+        <ul class="tag-list">
+        {% for tag in page.tags %}
+            <li>
+                <a href="/tag/{{ tag }}"><i class="tag fa fa-tag"></i> {{ tag }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
 
-{% if page.tags %}
-<ul class="tag-list">
-{% for tag in page.tags %}
-	<li>
-		<a href="/tag/{{ tag }}"><i class="tag fa fa-tag"></i> {{ tag }}</a>
-	</li>
-{% endfor %}
-</ul>
-{% endif %}
-
-<div id="post">
-  {{ content }}
+        <div id="post">
+          {{ content }}
+        </div>
+    </div>
 </div>

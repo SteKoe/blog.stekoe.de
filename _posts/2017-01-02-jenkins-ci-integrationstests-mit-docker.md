@@ -1,6 +1,7 @@
 ---
 title: "Jenkins CI - Integrationstests mit Docker"
 layout: post
+image: true
 tags:
  - Jenkins
  - Docker

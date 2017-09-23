@@ -1,0 +1,24 @@
+#post #markdown-toc {
+    margin: 1rem 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 1.25rem;
+    padding-left: 2.5rem;
+}
+
+#post .footnotes p {
+    margin: 0;
+}
+
+#post figure {
+    text-align: center;
+}
+#post figure img {
+    max-width: 100%;
+}
+#post figure figcaption {
+    font-size: 80%;
+}

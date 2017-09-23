@@ -1,12 +1,10 @@
 .cv {
-    width: 100%;
-    color: #626262;
-    font-family: Montserrat, sans-serif;
 }
 
 .cv-item {
     border: 1px solid #d7d7d7;
     padding: 10px 5px;
+    box-sizing: border-box;
 }
 
 .cv-item__left {
@@ -25,11 +23,11 @@
 }
 
 .cv-item__title {
+    font-weight: bold;
     color: #000;
     margin-left: 10px;
 }
 
 .cv-item__text {
-    margin-top: 10px;
     margin-left: 10px;
 }

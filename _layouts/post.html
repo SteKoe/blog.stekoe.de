@@ -1,48 +1,60 @@
 ---
 layout: default
 ---
-<div lang="{{ page.language }}">
-    <p class="meta">
-      {{ page.date | date: "%B %d, %Y" }}
-      <a href="/">
-        <i class="home fa fa-home"></i>
-      </a>
-    </p>
+<div lang="{{ page.language }}" class="card">
+    <div class="card-body">
+        <small>
+            <a href="/" class="text-muted">
+                    &laquo; Home
+            </a>
+            <span class="text-muted float-right">
+                {{ page.date | date: "%B %d, %Y" }}
+            </span>
+        </small>
+        <div class="clearfix"></div>
 
-    <h1 class="title">
-        {{page.title}}
-        {% if page.subtitle %}
-            <br><small>{{page.subtitle}}</small>
+        <h1 class="title">
+            {{page.title}}
+            {% if page.subtitle %}
+                <small class="text-muted">{{page.subtitle}}</small>
+            {% endif %}
+        </h1>
+
+        {% if page.tags or page.keywords %}
+        <div class="tag-list">
+            {% for tag in page.tags %}
+            <span class="badge badge-secondary">
+                <i class="fa fa-tag"></i>
+                {{tag}}
+            </span>
+            {% endfor %}
+            {% for keyword in page.keywords %}
+            <span class="badge badge-secondary">
+                <i class="fa fa-tag"></i>
+                {{keyword}}
+            </span>
+            {% endfor %}
+        </div>
         {% endif %}
-    </h1>
 
-    {% if page.tags or page.keywords %}
-    <ul class="tag-list">
-        {% for tag in page.tags %}
-        <li class="tag">
-            <i class="fa fa-tag"></i>
-            {{tag}}
-        </li>
-        {% endfor %}
-        {% for keyword in page.keywords %}
-        <li class="keyword">#{{keyword}}</li>
-        {% endfor %}
-    </ul>
-    {% endif %}
-
-    <div id="post">
-      {{ content }}
+        <div id="post">
+          {{ content }}
+        </div>
     </div>
+</div>
 
-    <div id="related">
-      <h3>Related Posts</h3>
-      <ul class="posts">
-        {% for post in site.related_posts limit:5 %}
-        <li>
-          <span>{{ post.date | date_to_string }} &raquo;</span>
-          <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
+<div class="card">
+    <div class="card-body">
+        <div id="related">
+            <h3>Related Posts</h3>
+            <ul class="posts">
+                {% for post in site.related_posts limit:5 %}
+                <li>
+                    <span>{{ post.date | date_to_string }} &raquo;</span>
+                    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 </div>

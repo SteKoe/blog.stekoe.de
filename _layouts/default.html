@@ -21,26 +21,23 @@
   <link rel="shortcut icon" href="/assets/img/favicon.png">
   <link rel="alternate" type="application/atom+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/atom.xml" />
 
-  <link rel="stylesheet" href="/assets/css/all.css">
-  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN">
-  <link href="/assets/css/font-open-sans.css" rel="stylesheet" type="text/css" integrity="sha384-GZttSIa4VJNB6RnFSwGb5+OkY6EDPcFZZciX5JN76IovZuHkemyW5BnVzffGFStw">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/blog.stekoe.de.css">
 </head>
 <body>
-  <div class="container">
-    <div class="four columns sidebar">
-      {% include sidebar.html %}
-    </div>
+  <div class="main-container container">
+    <div class="row">
+      <div class="col-md-9">
+        {{ content }}
 
-    <div class="eleven columns content main">
-      {{ content }}
-
-      <div class="footer">
-        {% include footer.html %}
+      </div>
+      <div class="col-md-3">
+          {% include sidebar.html %}
       </div>
     </div>
   </div>
-
-{% include analytics.html %}
+  <footer class="footer">
+    {% include footer.html %}
+  </footer>
 </body>
 </html>

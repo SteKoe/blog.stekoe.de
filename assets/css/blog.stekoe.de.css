@@ -1,0 +1,10 @@
+---
+---
+{% include css/font-awesome.min.css %}
+{% include css/font-open-sans.css %}
+{% include css/base.css %}
+{% include css/card.css %}
+{% include css/components/cv.css %}
+{% include css/components/home.css %}
+{% include css/components/post.css %}
+{% include css/components/sidebar.css %}

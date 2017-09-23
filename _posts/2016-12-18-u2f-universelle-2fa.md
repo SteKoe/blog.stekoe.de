@@ -1,6 +1,7 @@
 ---
 title: "U2F - Universelle Zweifaktor-Authentifizierung"
 layout: post
+image: true
 tags:
  - 2FA
  - U2F

@@ -1,0 +1,8 @@
+.card a {
+    color: #212529;
+}
+.card-img-top {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}

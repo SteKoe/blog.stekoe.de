@@ -1,18 +1,25 @@
-<nav>
-  <a href="/">
-    {% if site.data.theme.social.gravatar %}
-    <img src="//www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="That's me!"/>
-    {% else %}
-    <img src="/logo.png" id="logo" alt="Blog logo"/>
-    {% endif %}
+<nav id="sidebar">
+  <a href="/" class="logo">
+    <img src="//www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" class="img-thumbnail rounded-circle" alt="That's me!"/>
   </a>
-  <h2>Hallo! Ich bin <br><strong>{{ site.data.theme.name }}</strong></h2>
-  <div id="bio">
-    <p>
-      {{ site.data.theme.tagline }}
-    </p>
+  <div class="card">
+    <div class="card-body">
+      <h2>Willkommen.</h2>
+      <div id="bio">
+        <p class="text-justify">
+          Mein Name ist <strong>Stephan</strong>.
+          Ich bin ein <em>Fullstack Software Engineer</em> aus NRW in Deutschland.
+          Meine Kompetenzen liegen in der <em>Webentwicklung</em> (Angular) sowie <em>Backendentwicklung</em> mit Java (Spring).
+        </p>
+      </div>
+      <div id="social">
+        {% include social.html %}
+      </div>
+    </div>
   </div>
-  <div id="social">
-    {% include social.html %}
-  </div>
+
+  <!--<div class="list-group">-->
+    <!--<a href="/" class="list-group-item list-group-item-action">Home</a>-->
+    <!--<a href="/cv.html" class="list-group-item list-group-item-action">CV</a>-->
+  <!--</div>-->
 </nav>

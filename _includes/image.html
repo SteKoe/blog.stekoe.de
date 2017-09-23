@@ -9,11 +9,11 @@
 
 {% assign url = url | append: include.file %}
 
-<figure>
+<figure class="img-thumbnail">
 	<a href="{{url}}" target="_blank" class="image">
 		<img src="{{url}}" alt="{% if include.alt %}{{ include.alt }}{% else %}Image{% endif %}">
 	</a>
 	{% if include.caption %}
-	<figcaption>{{include.caption}}</figcaption>
+	<figcaption class="figure-caption">{{include.caption}}</figcaption>
 	{% endif %}
 </figure>
