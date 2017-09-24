@@ -8,6 +8,7 @@
     margin-bottom: 2.5em;
 }
 
-#sidebar .fa {
-    font-size: 1.5rem;
+#sidebar .social {
+    font-size: 2rem;
+    text-align: center;
 }
