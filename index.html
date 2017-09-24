@@ -4,7 +4,27 @@ title: Blog Posts
 ---
 
 <div id="home">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
         {% include card_post_frontpage.html post=post %}
     {% endfor %}
+
+    <!-- Pagination links -->
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            {% if paginator.previous_page %}
+            <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path }}" tabindex="-1">Zurück</a></li>
+            {% else %}
+            <li class="page-item disabled"><span class="page-link" tabindex="-1">Zurück</span></li>
+            {% endif %}
+
+            <li class="page-item"><span class="page-link" href="#">Seite {{ paginator.page }} von {{ paginator.total_pages }}</span></li>
+
+            {% if paginator.next_page %}
+            <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path }}">Weiter</a></li>
+            {% else %}
+            <li class="page-item disabled"><span class="page-link" tabindex="-1">Weiter</span></li>
+            {% endif %}
+        </ul>
+    </nav>
 </div>
+
