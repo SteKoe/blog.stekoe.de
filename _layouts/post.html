@@ -4,36 +4,36 @@ layout: default
 <article id="post" lang="{{ page.language }}" class="card">
     {% include post_title_image.html post=page %}
     <div class="card-body">
-        <small>
-            <a href="/" class="text-muted">
-                    &laquo; Home
-            </a>
-            <span class="text-muted float-right">
-                {{ page.date | date: "%B %d, %Y" }}
-            </span>
-        </small>
-        <div class="clearfix"></div>
+        <div class="post-meta">
+            <small>
+                <a href="/" class="text-muted">
+                        &laquo; Home
+                </a>
+                <span class="text-muted float-right">
+                    {{ page.date | date: "%B %d, %Y" }}
+                </span>
+            </small>
+            <div class="clearfix"></div>
 
-        {% if page.tags or page.keywords %}
-        <div class="tag-list">
-            {% for tag in page.tags %}
-            <span class="badge badge-secondary">
-                <i class="fa fa-tag"></i>
-                {{tag}}
-            </span>
-            {% endfor %}
-            {% for keyword in page.keywords %}
-            <span class="badge badge-secondary">
-                <i class="fa fa-tag"></i>
-                {{keyword}}
-            </span>
-            {% endfor %}
+            {% if page.tags or page.keywords %}
+            <div class="tag-list">
+                {% for tag in page.tags %}
+                <span class="badge badge-secondary">
+                    <i class="fa fa-tag"></i>
+                    {{tag}}
+                </span>
+                {% endfor %}
+                {% for keyword in page.keywords %}
+                <span class="badge badge-secondary">
+                    <i class="fa fa-tag"></i>
+                    {{keyword}}
+                </span>
+                {% endfor %}
+            </div>
+            {% endif %}
         </div>
-        {% endif %}
 
-        <div>
-          {{ content }}
-        </div>
+      {{ content }}
     </div>
 </article>
 

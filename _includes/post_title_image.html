@@ -4,6 +4,13 @@
     {% assign rndImageNum = include.post.date | date: "%s" | divided_by: 1000 | modulo: 11 %}
     {% assign postImage = rndImageNum | prepend: "/assets/images/posts/backgrounds/" | append: ".png" %}
 {% endif %}
+
+{% if page.path contains '_drafts' %}
+{% assign postImage = postImage | replace: '_drafts/','0000-00-00-' %}
+{% else %}
+{% assign postImage = postImage | replace: '_posts/','' %}
+{% endif %}
+
 <a href="{{ include.post.url }}" title="{{ include.post.title }}" class="card-img-top" style="background-image: url('{{ postImage }}'); height: 240px">
     <h1 class="title">
         <span>{{include.post.title}}</span>

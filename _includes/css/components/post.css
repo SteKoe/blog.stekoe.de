@@ -1,3 +1,7 @@
+#post .post-meta {
+    margin-bottom: 1.25rem;
+}
+
 #post #markdown-toc {
     margin: 1rem 0;
     word-wrap: break-word;
@@ -11,6 +15,10 @@
 
 #post .footnotes p {
     margin: 0;
+}
+
+#post .card-body p:last-child {
+    margin-bottom: 0;
 }
 
 #post figure {
