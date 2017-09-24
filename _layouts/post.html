@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-<div lang="{{ page.language }}" class="card">
+<article id="post" lang="{{ page.language }}" class="card">
+    {% include post_title_image.html post=page %}
     <div class="card-body">
         <small>
             <a href="/" class="text-muted">
@@ -12,13 +13,6 @@ layout: default
             </span>
         </small>
         <div class="clearfix"></div>
-
-        <h1 class="title">
-            {{page.title}}
-            {% if page.subtitle %}
-                <small class="text-muted">{{page.subtitle}}</small>
-            {% endif %}
-        </h1>
 
         {% if page.tags or page.keywords %}
         <div class="tag-list">
@@ -37,11 +31,11 @@ layout: default
         </div>
         {% endif %}
 
-        <div id="post">
+        <div>
           {{ content }}
         </div>
     </div>
-</div>
+</article>
 
 <div class="card">
     <div class="card-body">

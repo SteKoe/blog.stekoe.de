@@ -1,14 +1,5 @@
-{% if post.image == true %}
-    {% assign postImage = post.path | replace: '.md','' | replace: '_posts/','' | prepend: '/images/' | append: '/title.png' %}
-{% else %}
-    {% assign rndImageNum = post.date | date: "%s" | divided_by: 1000 | modulo: 11 %}
-    {% assign postImage = rndImageNum | prepend: "/assets/img/bg-post/" | append: ".png" %}
-{% endif %}
-
 <article class="card" style="margin-bottom: 1rem">
-    <a href="{{ post.url }}" title="{{ post.title }}" class="card-img-top" style="background-image: url('{{ postImage }}'); height: 240px">
-        asd
-    </a>
+    {% include post_title_image.html post=post %}
     <div class="card-body">
         <h2>
             <a href="{{ post.url }}">

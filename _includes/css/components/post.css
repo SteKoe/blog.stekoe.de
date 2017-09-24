@@ -3,7 +3,7 @@
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
     padding: 1.25rem;
     padding-left: 2.5rem;
@@ -16,9 +16,30 @@
 #post figure {
     text-align: center;
 }
+
 #post figure img {
     max-width: 100%;
 }
+
 #post figure figcaption {
     font-size: 80%;
+}
+
+#post .card-img-top {
+    display: flex;
+    align-items: center;
+    padding: 1.25rem 2.5rem;
+}
+
+#post .card-img-top h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+#post .card-img-top .title > * {
+    border-radius: .25rem;
+    display: inline-block;
+    margin-bottom: .25rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: .5rem;
 }

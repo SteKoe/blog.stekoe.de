@@ -1,5 +1,5 @@
 {% assign url = page.path %}
-{% assign url = url | replace: '.md','' | prepend: '/images/' | append: '/' %}
+{% assign url = url | replace: '.md','' | prepend: '/assets/images/posts/' | append: '/' %}
 
 {% if page.path contains '_drafts' %}
 	{% assign url = url | replace: '_drafts/','0000-00-00-' %}
