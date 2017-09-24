@@ -7,11 +7,18 @@
 	{% assign url = url | replace: '_posts/','' %}
 {% endif %}
 
+{% assign size = 'style="' %}
+{% if include.width %}
+	{% assign size = size | append: 'width:' | append: include.width  %}
+{% endif %}
+{% assign size = size | append: '"' %}
+
+
 {% assign url = url | append: include.file %}
 
-<figure class="img-thumbnail">
-	<a href="{{url}}" target="_blank" class="image">
-		<img src="{{url}}" alt="{% if include.alt %}{{ include.alt }}{% else %}Image{% endif %}">
+<figure class="img-thumbnail {{ include.class }}" {{ size }}>
+	<a href="{{url}}" target="_blank" class="image ">
+		<img src="{{url}}" alt="{% if include.alt %}{{ include.alt }}{% else %}Image{% endif %}" >
 	</a>
 	{% if include.caption %}
 	<figcaption class="figure-caption">{{include.caption}}</figcaption>

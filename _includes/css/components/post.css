@@ -25,6 +25,13 @@
     text-align: center;
 }
 
+#post figure.float-left {
+    margin-right: .5rem;
+}
+#post figure.float-right {
+    margin-left: .5rem;
+}
+
 #post figure img {
     max-width: 100%;
 }
