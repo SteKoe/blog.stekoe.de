@@ -6,7 +6,7 @@ layout: default
     <div class="card-body">
         <div class="post-meta">
             <small>
-                <a href="/" class="text-muted">
+                <a href="/" class="text-muted d-print-none">
                         &laquo; Home
                 </a>
                 <span class="text-muted float-right">
@@ -37,10 +37,10 @@ layout: default
     </div>
 </article>
 
-<div class="card">
+<div class="card d-print-none">
     <div class="card-body">
         <div id="related">
-            <h3>Related Posts</h3>
+            <h3>Other Posts</h3>
             <ul class="posts">
                 {% for post in site.related_posts limit:5 %}
                 <li>

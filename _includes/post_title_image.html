@@ -11,13 +11,17 @@
     {% assign postImage = postImage | replace: '_posts/','' %}
 {% endif %}
 
-<a href="{{ include.post.url }}" title="{{ include.post.title }}" class="card-img-top" style="background-image: url('{{ postImage }}'); height: 240px">
+<a href="{{ include.post.url }}" title="{{ include.post.title }}" class="card-img-top" style="background-image: url('{{ postImage }}'); height: 240px; -webkit-print-color-adjust:exact;">
     <h1 class="title">
         <span>{{include.post.title}}</span>
         {% if include.post.subtitle %}
         <br>
         <small class="text-muted">{{include.post.subtitle}}</small>
         {% endif %}
+
     </h1>
+    <small class="badge badge-light" role="date">
+        {{ include.post.date | date_to_string }}
+    </small>
 
 </a>

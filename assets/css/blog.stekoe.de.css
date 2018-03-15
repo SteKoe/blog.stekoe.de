@@ -8,3 +8,23 @@
 {% include css/components/home.css %}
 {% include css/components/post.css %}
 {% include css/components/sidebar.css %}
+
+@media print {
+    body {
+        background: none;
+        padding-top: 15px;
+    }
+
+    .main-container {
+        max-width: 100%;
+    }
+
+    [role="content"] {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    [role="sidebar"] {
+        display: none;
+    }
+}

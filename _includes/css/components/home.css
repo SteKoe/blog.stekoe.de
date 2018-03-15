@@ -1,3 +1,15 @@
+#home .card-img-top {
+    position: relative;
+}
+
 #home .card-img-top * {
     font-size: 0;
+}
+
+#home .card-img-top [role='date'] {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    font-size: .8em;
+    font-weight: normal;
 }
