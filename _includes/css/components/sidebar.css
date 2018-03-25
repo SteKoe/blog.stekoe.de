@@ -12,3 +12,7 @@
     font-size: 2rem;
     text-align: center;
 }
+
+#sidebar .social a {
+    color: #000;
+}

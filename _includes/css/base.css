@@ -10,7 +10,7 @@ body {
 }
 
 a {
-    color: #212529;
+    color: #007bff;
 }
 
 a:hover {
@@ -43,3 +43,16 @@ footer p {
 .card {
     margin-bottom: 1.25rem;
 }
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.00rem; }

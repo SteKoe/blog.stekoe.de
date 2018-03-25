@@ -11,7 +11,7 @@
     {% assign postImage = postImage | replace: '_posts/','' %}
 {% endif %}
 
-<a href="{{ include.post.url }}" title="{{ include.post.title }}" class="card-img-top" style="background-image: url('{{ postImage }}'); height: 240px; -webkit-print-color-adjust:exact;">
+<a href="{{ include.post.url }}" title="{{ include.post.title }}" class="card-img-top" style="background-position: center center; background-image: url('{{ postImage }}'); height: 240px; -webkit-print-color-adjust:exact;">
     <h1 class="title">
         <span>{{include.post.title}}</span>
         {% if include.post.subtitle %}
