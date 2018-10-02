@@ -2,6 +2,13 @@
 .card-img-top {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top left;
+    background-position: center center; 
     color: #000;
+    
+    height: 240px; 
+    -webkit-print-color-adjust:exact;
 }
+
+#post .card-img-top {
+    height: 320px;
+}   
